@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Girlfriend Day</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-top: 0;
+    }
+
+    .heart {
+      font-size: 5em;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    .message-box {
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 30px;
+      border-radius: 15px;
+      display: inline-block;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="heart">❤️</div>
+  <h1>Happy Girlfriend Day!</h1>
+  <div class="message-box">
+    <p>To the most amazing girl in the world,</p>
+    <p>Thank you for bringing so much love, light, and happiness into my life.</p>
+    <p>You make every day brighter, just by being you.</p>
+    <p>I feel lucky every day to call you mine. ❤️</p>
+    <p>Love you always and forever, meri ladoo!</p>
+  </div>
+</body>
+</html>
